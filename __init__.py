@@ -1,8 +1,10 @@
-from kivy.garden.matplotlib.backend_kivy import FigureCanvasKivy,\
+# GI mod : from "garden.matplotlib" to "garden_matplotlib" for local import
+from garden_matplotlib.backend_kivy import FigureCanvasKivy,\
                                 FigureManagerKivy, RendererKivy,\
                                 GraphicsContextKivy, NavigationToolbar2Kivy,\
                                 MPLKivyApp
-from kivy.garden.matplotlib.backend_kivyagg import FigureCanvasKivyAgg
+# GI mod : from "garden.matplotlib" to "garden_matplotlib" for local import
+from garden_matplotlib.backend_kivyagg import FigureCanvasKivyAgg
 
 __all__ = (FigureCanvasKivy.__name__, FigureManagerKivy.__name__,
            RendererKivy.__name__, GraphicsContextKivy.__name__,
